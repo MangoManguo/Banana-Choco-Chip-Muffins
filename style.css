@@ -1,0 +1,64 @@
+html {
+  background: rgb(156, 120, 89);
+}
+
+body {
+  width: 700px;
+  margin: 40px auto;
+  text-align: center;
+  border: 5px solid rgb(126, 93, 65);
+  border-radius: 30px;
+  padding: 20px 50px 30px 50px;
+  background: rgba(48, 31, 17, 0.7);
+  color: rgb(170, 134, 103);
+  font-family: "Times New Roman", Times, serif;
+}
+ul {
+  margin: 0 150px;
+  text-align: left;
+}
+
+div {
+  border: 2px solid rgb(126, 93, 65);
+  border-radius: 30px;
+  padding: 20px 50px 30px 50px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+li {
+  font-size: 17px;
+}
+
+h1,
+h2,
+ol {
+  border: 2px solid rgb(126, 93, 65);
+  border-radius: 30px;
+  padding: 20px 50px 30px 50px;
+}
+
+img {
+  border-radius: 25px;
+  border: 5px solid rgb(126, 93, 65);
+}
+
+a {
+  color: rgb(170, 134, 103);
+}
+
+a:hover {
+  color: white;
+  transition-duration: 0.4s;
+}
+
+li:hover {
+  text-decoration: underline;
+  color: rgb(221, 177, 135);
+  transition-duration: 0.5s;
+}
